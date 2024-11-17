@@ -42,8 +42,8 @@ Functional Simulation:
       
 	After this you can see the window like below 
 
+![Screenshot 2024-11-17 072618](https://github.com/user-attachments/assets/dd341187-cac2-4622-bf21-3dfbab7d3513)
 
-## Fig 2: Invoke the Cadence Environment
 
 
 ## Creating Source Code:
@@ -75,13 +75,14 @@ Functional Simulation:
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple step
 
-## Fig 3: Setting Multi-step simulation
+
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
 
-## Fig 4: cds.lib file Creation
+
+
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -89,7 +90,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	We are simulating verilog design without using any libraries
 
-## Fig 5: Selection of Don’t include any libraries
+ ![Screenshot 2024-11-17 072757](https://github.com/user-attachments/assets/9c1dd438-50e7-4b15-a753-766a2ce6ad0f)
+
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -99,7 +101,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-## Fig 6: Nclaunch Window
+![Screenshot 2024-11-17 073223](https://github.com/user-attachments/assets/f85bfcfd-c5bf-4d92-a250-78607e8aaa3f)
+
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -123,7 +126,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
-## Fig 7: Compiled database in worklib
+![Screenshot 2024-11-17 073242](https://github.com/user-attachments/assets/4f6391f8-c926-4078-a287-51644ac54e66)
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -168,7 +172,8 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 10: Simulation Waveform Window
 
-## Fig 11: Simulation Waveform Window
+![Screenshot 2024-11-17 073200](https://github.com/user-attachments/assets/a0b0bae2-1041-43d9-961d-5ce71528c406)
+
 
 ### Result
 
