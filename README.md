@@ -62,6 +62,7 @@ Functional Simulation:
 
 ## Creating Test bench:
 `timescale 1ns / 1 ns
+```
 module counter(clk,m,rst,count);
 input clk,m,rst;
 output reg [3:0] count;
@@ -73,12 +74,13 @@ count=count+1;
 else
 count=count-1;
 end
-endmodule
+endmodule```
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
 
 `timescale 1ns / 1ns
+```
 module counter_test;
 reg clk,rst,m;
 wire [3:0] count;
@@ -93,7 +95,7 @@ counter counter1 (clk,m,rst, count);
 always #5 clk=~clk;
 initial begin $monitor("Time=%t rst=%b clk=%b count=%b" , $time,rst,clk,count);
 #320 $finish; end
-endmodule
+endmodule```
 */Test bench Program  for  4-Bit Up-Down Counter
 
 ### To Launch Simulation tool
